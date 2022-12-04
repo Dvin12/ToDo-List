@@ -48,11 +48,18 @@ body{
 .add-list{
     border: none;
     border-radius: 5px;
-    background-color: burlywood;
+    background-color: rgb(255, 0, 0);
     outline: none;
     font-size: 16px;
     color: #fff;
     cursor: pointer;
+    opacity: .2;
+    pointer-events: none;
+}
+
+.add-list.active{
+    opacity: 1;
+    pointer-events: all;
 }
 
 .tasks{
